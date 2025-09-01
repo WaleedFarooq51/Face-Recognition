@@ -1,6 +1,7 @@
 # Face Recognition using Siamese Network (VGG-16 + Triplet Loss)
 
 This repository contains a **Face Recognition Model** built by fine-tuning **VGG-16** and training it in a **Siamese Network architecture** with a **Triplet Loss function**.  
+
 The model is designed to learn discriminative embeddings for face verification and recognition tasks.
 
 ---
@@ -16,11 +17,11 @@ The model is designed to learn discriminative embeddings for face verification a
 
 ## Evaluation
 
-If you want to evaluate the model on your own test images, run the `Real-time-prediction.ipynb` colab notebook, which loads the model checkpoints, stored in this [link]() and also provides instructions for collecting gallery and probe images for testing.
+If you want to evaluate the model on your own test images, run the `Real-time-prediction.ipynb` colab notebook, which loads the model checkpoints, stored in this [link](https://drive.google.com/drive/folders/1GeZH3OV-n9kDAJm1HtK16PfuVF1oX6Ge?usp=sharing) and also provides instructions for collecting gallery and probe images for testing.
 
 ## Training from scratch
 
-If you wish to train your model and get your own weights, then you can use `SiameseNetwork-TripletLoss.ipynb` colab notebook. Obviously, it is a Transfer learning technique, so the weights for the VGG-16 model can be downloaded from [here]() and then can be used to fine-tune the model.
+If you wish to train your model and get your own weights, then you can use `SiameseNetwork-TripletLoss.ipynb` colab notebook. Obviously, it is a Transfer learning technique, so the weights for the VGG-16 model can be downloaded from [here](https://drive.google.com/drive/folders/1ji54vF6YDALR0-NXYmIX20vVkuv2WxBu?usp=sharing) and then can be used to fine-tune the model.
 
 ## Training Data
 
